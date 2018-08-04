@@ -2,37 +2,11 @@
   "name": "rtyler-jenkins",
   "version": "1.7.0",
   "author": "R. Tyler Croy <tyler@monkeypox.org>, Joshua Hoblitt <josh@hoblitt.com>",
-  "license": "Apache-2.0",
   "summary": "Manage the Jenkins continuous integration service with Puppet",
+  "license": "Apache-2.0",
   "source": "https://github.com/jenkinsci/puppet-jenkins",
   "project_page": "https://github.com/jenkinsci/puppet-jenkins",
   "issues_url": "https://github.com/jenkinsci/puppet-jenkins/issues",
-  "tags": [
-    "jenkins",
-    "jenkinsci"
-  ],
-  "operatingsystem_support": [
-    {
-      "operatingsystem": "RedHat",
-      "operatingsystemrelease": [
-        "7",
-        "6"
-      ]
-    },
-    {
-      "operatingsystem": "CentOS",
-      "operatingsystemrelease": [
-        "7",
-        "6"
-      ]
-    },
-    {
-      "operatingsystem": "Ubuntu",
-      "operatingsystemrelease": [
-        "14.04"
-      ]
-    }
-  ],
   "dependencies": [
     {
       "name": "puppetlabs/stdlib",
@@ -63,10 +37,39 @@
       "version_requirement": ">= 0.1.0 < 1.0.0"
     }
   ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7",
+        "6"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7",
+        "6"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "14.04"
+      ]
+    }
+  ],
   "requirements": [
     {
       "name": "puppet",
       "version_requirement": ">= 4.10.0 < 5.0.0"
     }
-  ]
+  ],
+  "tags": [
+    "jenkins",
+    "jenkinsci"
+  ],
+  "pdk-version": "1.6.1",
+  "template-url": "file:///opt/puppetlabs/pdk/share/cache/pdk-templates.git",
+  "template-ref": "1.6.1-0-g6b0d497"
 }
